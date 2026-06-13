@@ -6,5 +6,8 @@ for a in range(1,x+1):
 print(count)
 if count==2:
     print("its a prime number")
+    print(x,"has exactly 2 factors:1 and" ,x)
 else:
     print("its not a prime number")
+    print(x,"has more than 2 factors")
+
